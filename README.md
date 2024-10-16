@@ -14,12 +14,12 @@ This project involves the design and development of an embedded DCC (Digital Com
 
 ## Installation
 1. Clone the repository:
-"""
-git clone https://github.com/yourusername/DCC-command-station.git
-"""
+'''bash
+git clone https://github.com/soufianeelm/DCC.git
+'''
 
-2. Build the VHDL design for the FPGA using a compatible toolchain (e.g., Xilinx Vivado).
-3. Program the MicroBlaze processor with the provided C code.
+3. Build the VHDL design for the FPGA using a compatible toolchain (e.g., Xilinx Vivado).
+4. Program the MicroBlaze processor with the provided C code.
 
 ## Usage
 1. Deploy the VHDL design to the FPGA.
