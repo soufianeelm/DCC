@@ -6,15 +6,16 @@ This project involves the design and development of an embedded DCC (Digital Com
 ## Features
 
 - VHDL Implementation: Developed a custom processing unit, wrapped in an IP (Intellectual Property) core, to handle DCC signal commands translation.
-- 
+
 - Embedded API: Programmed in C using the MicroBlaze module, allowing users to interact with the system through an intuitive menu interface and issue commands.
-- 
+
 - User Interface: On-board control via buttons and a display screen, enabling users to navigate the system and issue commands.
 
 
 ## Repository Contents
 
 - **/centrale_dcc_1.0/**: Holds the IP core files for the custom DCC processing unit, including the AXI interface (`S00_AXI`).
+  
 - **/DCC_SW/**: Contains the C code for the embedded API, designed to interact with the MicroBlaze processor and control the DCC command station.
 
 
